@@ -10,7 +10,7 @@ model = load_model('best_fire_model.h5')
 
 # Load alarm sound
 pygame.mixer.init()
-pygame.mixer.music.load(r"C:\Users\HP\Downloads\OfccQO0BP7A.mp3")  # عدل المسار لو الملف اتحرك
+pygame.mixer.music.load(r"C:\Users\HP\Downloads\OfccQO0BP7A.mp3")  
 
 # Open webcam
 cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
